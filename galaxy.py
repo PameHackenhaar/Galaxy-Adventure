@@ -17,6 +17,8 @@ else:
 
 pygame.init()
 pygame.display.set_caption("GALAXY ADVENTURE")
+icon = pygame.image.load("assets_icon/galaxyadventure.png")
+pygame.display.set_icon(icon)
 
 screen = pygame.display.set_mode((700, 600))
 font = pygame.font.SysFont("Monteserrat", 60)
