@@ -9,6 +9,7 @@ from pygame.color import THECOLORS
 from word import Word
 
 arquivo = open("dados.txt", "w")
+arquivo.close
 nickname = input("insira nickname: ")
 email = input("insira e-mail: ")
 
