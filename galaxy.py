@@ -8,6 +8,10 @@ from pygame.locals import *
 from pygame.color import THECOLORS
 from word import Word
 
+arquivo = open("dados.txt", "w")
+nickname = input("insira nickname: ")
+email = input("insira e-mail: ")
+
 EXEC_DIR = os.path.dirname(__file__)  
 
 if sys.platform == "darwin":
